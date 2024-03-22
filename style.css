@@ -1,0 +1,438 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+/* comman class */
+.h-primary-center {
+    font-family: 'Nunito', sans-serif;
+    font-size: 3rem;
+}
+section{
+    padding: 5rem 0;
+    width: 100vw;
+}
+
+/* here navbar */
+.navbar {
+    display: inline-flex;
+    background: linear-gradient(120deg, rgba(216, 191, 183, 0.938), rgb(88, 125, 194), rgba(100, 154, 180, 0.938), rgb(241, 165, 135));
+    border: 0.5px solid #0a0a0a;
+    position: fixed;
+    width: 100vw;
+}
+
+.right-nav {
+    width: 50vw;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.right-nav a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: black;
+    font-family: 'Nunito', sans-serif;
+}
+
+.right-nav a:hover {
+    transform: scale(1.2);
+}
+
+.right-nav button {
+    color: black;
+}
+#contactWindow{
+    cursor:pointer;
+}
+.left-nav {
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    backface-visibility: inherit;
+}
+
+.left-nav img {
+    padding-left: 50px;
+}
+
+/* ............................................................. */
+/* mid section */
+.mid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-image: url('img/imageedit_1_4641214930.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+}
+
+.q-line {
+    font-size: 2rem;
+    color: #000;
+    font-weight: bolder;
+    font-family: 'Nunito', sans-serif;
+    padding: 0%;
+    /* width: 100vw; */
+}
+
+#question {
+    font-family: 'Nunito', sans-serif;
+    color: #000;
+    font-size: 2.5rem;
+    /* color: antiquewhite; */
+}
+
+.order {
+    font-family: 'Nunito', sans-serif;
+    background-color: #ff5A09;
+    color: antiquewhite;
+    font-size: 1rem;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.order:hover {
+    transform: scale(1.1);
+}
+
+/* ........................................................................... */
+/* here the services section */
+.Services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* padding-top: 2rem; */
+    box-shadow: 5px 5px 5px 5px rgb(223, 220, 220);
+    background: linear-gradient(120deg, rgba(216, 191, 183, 0.938), rgb(88, 125, 194), rgba(100, 154, 180, 0.938), rgb(241, 165, 135));
+}
+
+.service-container {
+    display: flex;
+    gap: 2rem;
+}
+
+.service_box img {
+    height: 6rem;
+    width: 6rem;
+}
+
+.service_box {
+    width: 20rem;
+    background-color: #fdfafa;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0.5px rgb(197, 193, 193);
+    text-decoration: none;
+    color: #000;
+}
+
+.service_box:hover {
+    border: 0px solid black;
+    box-shadow: 1px 1px 5px 5px rgb(224, 220, 220);
+    transform: scale(1.01);
+}
+
+.service_box h1 {
+    font-family: 'Merriweather', serif;
+}
+
+.service_box p {
+    font-family: 'Nunito', sans-serif;
+}
+
+/* ......................................................... */
+/* customer section */
+.customer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background: linear-gradient(120deg, rgba(216, 191, 183, 0.938), rgb(88, 125, 194), rgba(100, 154, 180, 0.938), rgb(241, 165, 135));
+}
+
+.cus_det {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 5rem;
+    font-family: 'Merriweather', serif;
+    font-weight: bolder;
+    color: #fff;
+}
+
+.cus_no {
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+/* this section for contact form */
+.contact {
+    height: auto;
+    background: linear-gradient(120deg, rgba(238, 228, 225, 0.938), rgb(205, 213, 226), rgba(181, 203, 214, 0.938), rgb(184, 153, 142));
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 25px rgb(65, 141, 204);
+}
+
+.mail_img {
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form_box {
+    width: 40vw;
+    border: 2px solid rgb(58, 57, 57);
+    border-radius: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+.form_box div {
+    font-size: 3rem;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bolder;
+}
+
+.form_box form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+}
+
+.form_part {
+    width: 30vw;
+    border: none;
+    border-bottom: 2px solid black;
+    border-radius: 10px;
+    height: 2rem;
+    font-size: 1rem;
+    font-family: 'Nunito', sans-serif;
+}
+
+#notes {
+    height: 200px;
+    width: 30vw;
+    text-align: start;
+    font-size: 1rem;
+    border-radius: 10px;
+}
+
+#submit_btn {
+    color: #fff;
+    background-color: #0a0a0a;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-family: 'Nunito', sans-serif;
+}
+
+#submit_btn:hover {
+    transform: scale(1.2);
+}
+
+/* footer */
+.foot {
+    width: 100vw;
+    background-color: black;
+    color: #fff;
+}
+
+.icon {
+    /* this icon is belong to sosial media icons */
+    height: 3rem;
+    gap: 8px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 1%;
+}
+
+.so_icon {
+    height: 1.5rem;
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 8px;
+}
+
+.so_icon:hover {
+    transform: scale(1.2);
+}
+
+.foot_container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.foot_box {
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    gap: 8px;
+    font-family: 'Nunito', sans-serif;
+    margin-top: 2%;
+}
+
+.foot_box a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.foot_box a:hover {
+    transform: scale(1.2);
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    font-family: 'Nunito', sans-serif;
+    align-items: center;
+}
+
+.copyright img {
+    height: 2rem;
+}
+
+/* here the media query for responsive  */
+@media screen and (min-width:769px) and (max-width:1024px) {
+    .service-container {
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
+
+@media screen and (min-width:676px) and (max-width:768px) {
+    .service-container {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .navbar {
+        flex-direction: column;
+    }
+
+    .right-nav {
+        width: 90vw;
+        justify-content: space-around;
+    }
+
+    .left-nav {
+        width: 90vw;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (min-width:481px) and (max-width:675px) {
+    .q-line {
+        display: none;
+    }
+
+    .service-container {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .cus_det {
+        gap: 2rem;
+    }
+
+    .contact {
+        flex-direction: column;
+    }
+
+    .form_box {
+        width: 80vw;
+    }
+
+    .form_part {
+        width: 50vw;
+    }
+
+    .cus_no {
+        font-size: 2rem;
+    }
+
+    .navbar {
+        flex-direction: column;
+    }
+
+    .right-nav {
+        width: 90vw;
+        justify-content: space-around;
+    }
+
+    .left-nav {
+        width: 90vw;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:480px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .right-nav {
+        width: 90vw;
+        justify-content: space-around;
+    }
+
+    .left-nav {
+        width: 90vw;
+        justify-content: space-around;
+    }
+
+    .q-line {
+        display: none;
+    }
+
+    .service-container {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .cus_det {
+        gap: 2rem;
+    }
+
+    .contact {
+        flex-direction: column;
+    }
+
+    .form_box {
+        width: 100vw;
+    }
+
+    .form_part,
+    #notes {
+        width: 100vw;
+    }
+
+    .foot_container {
+        flex-direction: column;
+        justify-content: center;
+        /* align-items: center; */
+    }
+
+    .service_box {
+        width: 15rem;
+    }
+}
+
+
